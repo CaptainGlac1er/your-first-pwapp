@@ -26,7 +26,6 @@ techniques. Your app will:
 
 This is a work in progress, if you find a mistake, please [file an issue][git-issue].
 
-
 ## License
 
 Copyright 2019 Google, Inc.
@@ -48,3 +47,40 @@ specific language governing permissions and limitations under the License.
 
 [codelab]: https://codelabs.developers.google.com/codelabs/your-first-pwapp/
 [git-issue]: https://github.com/googlecodelabs/your-first-pwapp/issues
+
+
+
+### Add this to `manifest.json`
+`{
+  "name": "Weather",
+  "short_name": "Weather",
+  "icons": [{
+    "src": "/images/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "/images/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "/images/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "/images/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "/images/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "/images/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2"
+}`
