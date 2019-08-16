@@ -21,10 +21,6 @@ techniques. Your app will:
 * How to provide a full offline experience
 * How to make your app installable
 
-## Getting started
-
-To get started, check out the [codelab instruction][codelab]
-
 
 ## Feedback
 
