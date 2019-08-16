@@ -90,3 +90,30 @@ specific language governing permissions and limitations under the License.
 `<meta name="apple-mobile-web-app-status-bar-style" content="black">`
 `<meta name="apple-mobile-web-app-title" content="Weather PWA">`
 `<link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">`
+
+#### Add this to `sw.js`
+`// CODELAB: Add list of files to cache here.
+const FILES_TO_CACHE = [
+  '/',
+  '/index.html',
+  '/scripts/app.js',
+  '/scripts/install.js',
+  '/scripts/luxon-1.11.4.js',
+  '/styles/inline.css',
+  '/images/add.svg',
+  '/images/clear-day.svg',
+  '/images/clear-night.svg',
+  '/images/cloudy.svg',
+  '/images/fog.svg',
+  '/images/hail.svg',
+  '/images/install.svg',
+  '/images/partly-cloudy-day.svg',
+  '/images/partly-cloudy-night.svg',
+  '/images/rain.svg',
+  '/images/refresh.svg',
+  '/images/sleet.svg',
+  '/images/snow.svg',
+  '/images/thunderstorm.svg',
+  '/images/tornado.svg',
+  '/images/wind.svg',
+];`
