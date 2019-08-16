@@ -50,7 +50,7 @@ specific language governing permissions and limitations under the License.
 
 
 
-### Add this to `manifest.json`
+#### Add this to `manifest.json`
 `{
   "name": "Weather",
   "short_name": "Weather",
@@ -84,3 +84,9 @@ specific language governing permissions and limitations under the License.
   "background_color": "#3E4EB8",
   "theme_color": "#2F3BA2"
 }`
+
+#### Add this to `index.html`
+`<meta name="apple-mobile-web-app-capable" content="yes">`
+`<meta name="apple-mobile-web-app-status-bar-style" content="black">`
+`<meta name="apple-mobile-web-app-title" content="Weather PWA">`
+`<link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">`
